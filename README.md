@@ -1,4 +1,5 @@
-[![部署到Cloudflare Workers](https://deploy.workers.cloudflare.com/button)(https://deploy.workers.cloudflare.com/?url=https://github.com/xf45240011/my-domain-monitor)]
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/xf45240011/my-domain-monitor)
+
 
 
 # Cloudflare Worker 域名监控面板1
