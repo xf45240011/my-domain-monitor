@@ -1,4 +1,4 @@
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/xf45240011/my-domain-monitor)
+[![部署到Cloudflare Workers](https://deploy.workers.cloudflare.com/button)(https://deploy.workers.cloudflare.com/?url=https://github.com/xf45240011/my-domain-monitor)]
 
 
 # Cloudflare Worker 域名监控面板
@@ -20,7 +20,7 @@
 2.  点击 **创建**，创建一个新数据库，命名为 `domain-db`（或者其他你喜欢的名字）。
 3.  创建成功后，复制 **数据库ID**（一串类似 `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` 的字符）。
 4.  点击数据库名称进入详情，选择 **控制台** 标签页。
-5.  将项目中的 `schema.sql` 文件内容全选复制，粘贴到 Console 中并点击 **执行**，完成数据表初始化。
+5.  将项目中的 ``schema.sql`` 文件内容全选复制，粘贴到 Console 中并点击 **执行**，完成数据表初始化。
 
 ### 3. 配置项目
 1.  在你的 GitHub Fork 项目中，打开 `wrangler.toml` 文件。
@@ -45,14 +45,14 @@
 2.  **设置登录密码**：
     *   进入 **设置 (设置)** -> **变量和机密 (变量和机密)**。
     *   点击 **添加**。
-    *   变量名称: `PASSWORD`
+    *   变量名称: `密码`
     *   Value: `你的后台登录密码`
     *   点击 **加密并添加**。
 
 ### 6. 完成
 点击 Worker 提供的 `*.workers.dev` 域名，输入密码即可开始使用！
 
-## 功能
+##功能
 *   ➕ 批量添加域名
 *   🔄 每天自动检测在线状态 (Cron Trigger)
 *   📅 自动计算域名到期天数
