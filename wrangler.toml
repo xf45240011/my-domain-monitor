@@ -10,5 +10,5 @@ crons = ["0 0 * * *"]
 [[d1_databases]]
 binding = "DB"
 database_name = "domain-db"
-database_id = "USER_MUST_REPLACE_THIS" # 别人部署时需要改这里
+database_id = "370db876-1d6d-4cbe-a1d5-f6fbe96bb1ca" # 别人部署时需要改这里
 
