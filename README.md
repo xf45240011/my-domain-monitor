@@ -1,7 +1,7 @@
 [![部署到Cloudflare Workers](https://deploy.workers.cloudflare.com/button)(https://deploy.workers.cloudflare.com/?url=https://github.com/xf45240011/my-domain-monitor)]
 
 
-# Cloudflare Worker 域名监控面板
+# Cloudflare Worker 域名监控面板1
 
 这是一个运行在 Cloudflare Workers 上的轻量级域名监控工具。无需服务器，免费版套餐即可使用。
 支持 D1 数据库存储、Gist/WebDAV 备份、定时自动检测。
