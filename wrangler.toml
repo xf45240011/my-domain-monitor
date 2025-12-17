@@ -2,12 +2,13 @@ name = "domain-monitor"
 main = "src/worker.js"
 compatibility_date = "2023-10-02"
 
-# D1 数据库绑定
+# --- 新增：每天早上8点自动检查 ---
+[triggers]
+crons = ["0 0 * * *"] 
+# -----------------------------
+
 [[d1_databases]]
 binding = "DB"
 database_name = "domain-db"
-database_id = "USER_MUST_REPLACE_THIS_WITH_THEIR_OWN_ID"
+database_id = "USER_MUST_REPLACE_THIS" # 别人部署时需要改这里
 
-# 静态资源 (如果以后需要，现在暂时不需要)
-# [site]
-# bucket = "./public"
